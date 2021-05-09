@@ -59,3 +59,8 @@
 .form-check-input:focus {
     box-shadow: none !important;
 }
+
+.form-floating>.form-control:focus~label {
+    color: orange !important;
+    opacity: 1 !important;
+}
