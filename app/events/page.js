@@ -35,7 +35,7 @@ const loadPageMain = (mainPage, page) => {
         });
 }
 
-export const loadPage = (page, element = null) => {
+export const loadPage = (page) => {
     const section = document.querySelector('section');
 
     section.innerHTML = spinner();
@@ -51,6 +51,7 @@ export const loadPage = (page, element = null) => {
             section.innerHTML = data;
             document.querySelector('main').setAttribute('page-now', page);
 
+            const element = document.getElementById(page);
             if (element) {
                 element.classList.add('active');
             }

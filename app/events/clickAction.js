@@ -13,7 +13,7 @@ const clickAction = () => {
             let getAttributePageNow = pageNow.getAttribute('page-now');
             if (page !== getAttributePageNow) {
                 removeClickActive();
-                loadPage(page, this);
+                loadPage(page);
             }
         });
     });

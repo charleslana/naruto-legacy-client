@@ -8,6 +8,13 @@ const portuguese = {
     NAV_NOT_LOGGED_REGISTER: `Cadastrar`,
     HOME_TITLE: `Bem vindo`,
     HOME_DESCRIPTION: `Para jogar Naruto Legacy você necessita somente de uma conexão com a Internet e um Navegador (Google Chrome, FireFox ou outro de sua preferência). Clique em Cadastro e preencha os campos corretamente com as informações solicitadas. É no registro que você escolhe seu nome/nick do jogo e um email para entrar. O registro é muito simples, não custa nada, não há nenhuma obrigação de sua parte e nem de nossa parte também.<br><br>Uma vez que você se registrar e acessa o game, você encontrará a sua página de Visão Geral (Status) do seu personagem. No menu caçadas voce pode ganhar xp e yens para poder investir seus yens (moeda do jogo) em treinamento para melhorar os atributos do seu personagem, comprar armas ou usar em outras coisas que o game lhe oferece.<br><br>Você também pode atacar diretamente jogadores e tomar parte de seus yens. Os seus atributos e golpes são fundamentais nos ataques.`,
+    LOGIN_TITLE: `Entrar`,
+    LOGIN_EMAIL: `Email`,
+    LOGIN_PASSWORD: `Senha`,
+    LOGIN_CHECK: `Salvar login`,
+    LOGIN_BUTTON: `Entrar`,
+    LOGIN_P: `Ainda não tem uma conta?`,
+    LOGIN_A: `Cadastrar`,
     MODEL: ``,
 }
 

@@ -13,6 +13,7 @@ export const language = () => {
     footer();
     toTop();
     home();
+    login();
 }
 
 const showLanguage = () => {
@@ -82,13 +83,52 @@ const toTop = () => {
 const home = () => {
     let element;
 
-    element = document.querySelector('#homeWelcome > h1');
+    element = document.querySelector('#pageHome > h1');
     if (element) {
         element.innerHTML = getLanguage().HOME_TITLE;
     }
 
-    element = document.querySelector('#homeWelcome > p');
+    element = document.querySelector('#pageHome > p');
     if (element) {
         element.innerHTML = getLanguage().HOME_DESCRIPTION;
+    }
+}
+
+const login = () => {
+    let element;
+
+    element = document.querySelector('#pageLogin > h1');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_TITLE;
+    }
+
+    element = document.querySelector('#pageLogin > form > div:nth-child(1) > label');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_EMAIL;
+    }
+
+    element = document.querySelector('#pageLogin > form > div:nth-child(2) > label');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_PASSWORD;
+    }
+
+    element = document.querySelector('#pageLogin > form > div:nth-child(3) > label');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_CHECK;
+    }
+
+    element = document.querySelector('#pageLogin button');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_BUTTON;
+    }
+
+    element = document.querySelector('#pageLogin p');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_P;
+    }
+
+    element = document.querySelector('#pageLogin a');
+    if (element) {
+        element.innerHTML = getLanguage().LOGIN_A;
     }
 }
