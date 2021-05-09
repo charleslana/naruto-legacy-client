@@ -116,3 +116,21 @@ body {
     color: orange !important;
     text-decoration: underline !important;
 }
+
+.btn-outline-legacy {
+    color: orange;
+    border-color: orange;
+}
+
+.btn-outline-legacy:active, .btn-outline-legacy:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn-check:active+.btn-outline-legacy, .btn-check:checked+.btn-outline-legacy, .btn-outline-legacy.active, .btn-outline-legacy.dropdown-toggle.show, .btn-outline-legacy:active {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+    box-shadow: none !important;
+}
