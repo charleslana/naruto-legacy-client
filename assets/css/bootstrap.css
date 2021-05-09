@@ -1,0 +1,34 @@
+.container {
+    border: 3px solid #300808;
+    border-radius: 0.5rem;
+}
+
+.nav-link {
+    color: #CCCCCC;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #c4c4c4;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #422a2a;
+}
+
+.dropdown-menu {
+    background-color: #300808 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #422a2a;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #422a2a;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+}

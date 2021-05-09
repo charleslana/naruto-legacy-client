@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px) {
+    .bg-logo {
+        background-position: 85% !important;
+    }
+}

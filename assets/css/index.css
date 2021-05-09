@@ -1,0 +1,60 @@
+@import url(sweetalert2.css);
+@import url(bootstrap.css);
+@import url(mobile.css);
+
+body {
+    background-color: #000000;
+    color: #CCCCCC;
+}
+
+.nav-bg-container {
+    margin-top: 5.3rem;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.bg-legacy {
+    background-color: #300808 !important;
+}
+
+.bg-logo {
+    background-image: url(../img/layout/logo-legacy.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.language-pt {
+    background-image: url(../img/languages/pt-br.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
+
+.language-en {
+    background-image: url(../img/languages/en.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
+
+.helper-image-jiraiya {
+    background-image: url(../img/help/1.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.spinner-size {
+    width: 3rem;
+    height: 3rem;
+}

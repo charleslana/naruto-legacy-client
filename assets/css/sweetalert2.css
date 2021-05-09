@@ -1,0 +1,19 @@
+.swal2-styled.swal2-confirm {
+    background-color: #FFA500 !important;
+}
+
+.swal2-popup {
+    background-color: #300808 !important;
+}
+
+.swal2-content {
+    color: #FFA500 !important;
+}
+
+.swal2-title {
+    color: #FFA500 !important;
+}
+
+.swal2-styled:focus {
+    box-shadow: none !important;
+}
