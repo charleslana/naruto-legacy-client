@@ -1,4 +1,4 @@
-const toTop = () => {
+export const toTop = () => {
     window.onscroll = () => {
         scrollObservable();
     }
@@ -17,9 +17,7 @@ const scrollObservable = () => {
     buttonToTop.style.display = "none";
 }
 
-const scrollToTop = () => {
+export const scrollToTop = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-export default toTop;
