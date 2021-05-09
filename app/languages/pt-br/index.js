@@ -2,6 +2,7 @@ const portuguese = {
     MAINTENANCE: `Servidor em manutenção`,
     SWEET_ALERT_ERROR: `Erro`,
     FOOTER: `<h4>Naruto Legacy</h4><br>Jogar Naruto Legacy é totalmente gratuito e sem nenhum compromisso. Somos um fã site e os direitos autorais desta obra estão reservados ao criador da série japonesa. Todos os direitos sobre NARUTO são reservados a Masashi Kishimoto. Todo e qualquer lucro obtido neste site são usados na manutenção do site em despesas com servidores e programação do jogo.<br><br>© 2021 Copyright - Todos direitos reservados a Naruto Legacy by Charles fan made<br> © 2021 Copyright - Todos direitos do anime e imagens reservados a Masashi Kishimoto.`,
+    GO_TO_TOP: `Subir`,
     NAV_NOT_LOGGED_HOME: `Home`,
     NAV_NOT_LOGGED_LOGIN: `Entrar`,
     NAV_NOT_LOGGED_REGISTER: `Cadastrar`,

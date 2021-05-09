@@ -11,6 +11,7 @@ export const language = () => {
     showLanguage();
     navNotLogged();
     footer();
+    toTop();
     home();
 }
 
@@ -66,6 +67,15 @@ const footer = () => {
     element = document.querySelector('footer > div');
     if (element) {
         element.innerHTML = getLanguage().FOOTER;
+    }
+}
+
+const toTop = () => {
+    let element;
+
+    element = document.querySelector('.btn-to-top');
+    if (element) {
+        element.innerHTML = getLanguage().GO_TO_TOP;
     }
 }
 
