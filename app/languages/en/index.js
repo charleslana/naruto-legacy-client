@@ -29,6 +29,19 @@ const english = {
     LOGIN_BUTTON: `Login`,
     LOGIN_P: `Not have an account yet?`,
     LOGIN_A: `Register`,
+    REGISTER_TITLE: `Register`,
+    REGISTER_DESCRIPTION: `Fill in the fields correctly and use a valid email, when completing the registration you will be redirected to login and start your great journey in Naruto Legacy.`,
+    REGISTER_NAME: `Name`,
+    REGISTER_EMAIL: `Email`,
+    REGISTER_PASSWORD: `Password`,
+    REGISTER_CONFIRM_PASSWORD: `Confirm password`,
+    REGISTER_STYLE_NINJA_TITLE: `Ninja Style`,
+    REGISTER_STYLE_NINJA_DESCRIPTION: `Here you choose your ninja style to be.<br>You will earn a 5% bonus on your style attribute.<br>(3% for all attributes if you choose the Balanced style).`,
+    REGISTER_CHARACTER_TITLE: `Character`,
+    REGISTER_CHARACTER_DESCRIPTION: `Choose a character`,
+    REGISTER_VILLAGE_TITLE: `Initial village`,
+    REGISTER_VILLAGE_DESCRIPTION: `And here you choose your starting village, where you can participate in the village's clans and rankings.`,
+    REGISTER_BUTTON: `Sign up`,
 }
 
 export default english;

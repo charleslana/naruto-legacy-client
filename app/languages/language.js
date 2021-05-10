@@ -14,6 +14,7 @@ export const language = () => {
     toTop();
     home();
     login();
+    register();
 }
 
 const showLanguage = () => {
@@ -130,5 +131,74 @@ const login = () => {
     element = document.querySelector('#pageLogin a');
     if (element) {
         element.innerHTML = getLanguage().LOGIN_A;
+    }
+}
+
+const register = () => {
+    let element;
+
+    element = document.querySelector('#pageRegister h1');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_TITLE;
+    }
+
+    element = document.querySelector('#pageRegister > p');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_DESCRIPTION;
+    }
+
+    element = document.querySelector('#pageRegister > form > div:nth-child(1) > label');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_NAME;
+    }
+
+    element = document.querySelector('#pageRegister > form > div:nth-child(2) > label');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_EMAIL;
+    }
+
+    element = document.querySelector('#pageRegister > form > div:nth-child(3) > label');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_PASSWORD;
+    }
+
+    element = document.querySelector('#pageRegister > form > div:nth-child(4) > label');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_CONFIRM_PASSWORD;
+    }
+
+    element = document.querySelector('#pageRegister > form h4:nth-child(5)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_STYLE_NINJA_TITLE;
+    }
+
+    element = document.querySelector('#pageRegister > form p:nth-child(6)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_STYLE_NINJA_DESCRIPTION;
+    }
+
+    element = document.querySelector('#pageRegister > form h4:nth-child(8)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_CHARACTER_TITLE;
+    }
+
+    element = document.querySelector('#pageRegister > form p:nth-child(9)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_CHARACTER_DESCRIPTION;
+    }
+
+    element = document.querySelector('#pageRegister > form h4:nth-child(11)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_VILLAGE_TITLE;
+    }
+
+    element = document.querySelector('#pageRegister > form p:nth-child(12)');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_VILLAGE_DESCRIPTION;
+    }
+
+    element = document.querySelector('#pageRegister button[type="submit"]');
+    if (element) {
+        element.innerHTML = getLanguage().REGISTER_BUTTON;
     }
 }
