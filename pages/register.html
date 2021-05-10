@@ -21,9 +21,11 @@
                         placeholder="Confirm password" required>
                     <label for="floatingConfirmPassword">Text</label>
                 </div>
+
                 <h4>Text</h4>
                 <p>Text</p>
-                <div class="btn-group mt-2 mb-3" role="group" aria-label="Basic radio toggle button group">
+                <div class="btn-group mt-2 mb-3" role="group" aria-label="Basic radio toggle button group"
+                    id="getStylesNinja">
                     <input type="radio" class="btn-check" name="btnRadioStyleNinja" id="btnradio1" value="1" checked
                         required>
                     <label class="btn btn-outline-legacy" for="btnradio1">Text</label>
@@ -37,91 +39,27 @@
                     <input type="radio" class="btn-check" name="btnRadioStyleNinja" id="btnradio4" value="4" required>
                     <label class="btn btn-outline-legacy" for="btnradio4">Text</label>
                 </div>
+
                 <h4>Text</h4>
                 <p>Text</p>
-                <div id="carouselExampleControls" class="carousel slide mb-3" data-bs-ride="carousel"
-                    data-bs-interval=false>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <label class="form-check-label" for="flexRadioCharacter1">
-                                <img src="../assets/img/characters/Akimichi/1.png" class="d-block mb-2" alt="Character">
-                                <input class="form-check-input" type="radio" name="flexRadioCharacter"
-                                    id="flexRadioCharacter1" value="1" required>
-                                <span>Text</span>
-                            </label>
-                        </div>
-                        <div class="carousel-item">
-                            <label class="form-check-label" for="flexRadioCharacter2">
-                                <img src="../assets/img/characters/Asuma/1.png" class="d-block mb-2" alt="Character">
-                                <input class="form-check-input" type="radio" name="flexRadioCharacter"
-                                    id="flexRadioCharacter2" value="2" required>
-                                <span>Text</span>
-                            </label>
-                        </div>
-                        <div class="carousel-item">
-                            <label class="form-check-label" for="flexRadioCharacter3">
-                                <img src="../assets/img/characters/Boruto/1.png" class="d-block mb-2" alt="Character">
-                                <input class="form-check-input" type="radio" name="flexRadioCharacter"
-                                    id="flexRadioCharacter3" value="3" required>
-                                <span>Text</span>
-                            </label>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                <div id="carouselCharacters" class="carousel slide mb-3" data-bs-ride="carousel" data-bs-interval=false>
+                    <div class="carousel-inner"></div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCharacters"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCharacters"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+
                 <h4>Text</h4>
                 <p>Text</p>
-                <div class="row row-cols-2 row-cols-md-4 g-4">
-                    <div class="col">
-                        <label class="form-check-label" for="flexRadioVillage1">
-                            <img src="../assets/img/villages/1.png" class="d-block mb-2 img-fluid" alt="Village">
-                            <input class="form-check-input" type="radio" name="flexRadioVillage" id="flexRadioVillage1"
-                                value="1" required>
-                            <span>Text</span>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label class="form-check-label" for="flexRadioVillage2">
-                            <img src="../assets/img/villages/2.png" class="d-block mb-2 img-fluid" alt="Village">
-                            <input class="form-check-input" type="radio" name="flexRadioVillage" id="flexRadioVillage2"
-                                value="2" required>
-                            <span>Text</span>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label class="form-check-label" for="flexRadioVillage3">
-                            <img src="../assets/img/villages/3.png" class="d-block mb-2 img-fluid" alt="Village">
-                            <input class="form-check-input" type="radio" name="flexRadioVillage" id="flexRadioVillage3"
-                                value="3" required>
-                            <span>Text</span>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label class="form-check-label" for="flexRadioVillage4">
-                            <img src="../assets/img/villages/1.png" class="d-block mb-2 img-fluid" alt="Village">
-                            <input class="form-check-input" type="radio" name="flexRadioVillage" id="flexRadioVillage4"
-                                value="4" required>
-                            <span>Text</span>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label class="form-check-label" for="flexRadioVillage5">
-                            <img src="../assets/img/villages/1.png" class="d-block mb-2 img-fluid" alt="Village">
-                            <input class="form-check-input" type="radio" name="flexRadioVillage" id="flexRadioVillage5"
-                                value="5" required>
-                            <span>Text</span>
-                        </label>
-                    </div>
-                </div>
+                <div class="row row-cols-2 row-cols-md-4 g-4" id="getVillages"></div>
+
                 <button type="submit" class="btn btn-legacy mt-3 mb-3 d-flex mx-auto">Text</button>
             </form>
         </div>
