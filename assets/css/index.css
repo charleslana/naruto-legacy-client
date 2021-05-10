@@ -134,3 +134,9 @@ body {
     border-color: orange;
     box-shadow: none !important;
 }
+
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
